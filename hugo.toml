@@ -1,12 +1,12 @@
 baseURL = "http://localhost:1313/"
 languageCode = "zh-cn"
-title = "我的博客"
+title = "小龙的学习笔记"
 theme = "PaperMod"
 
 [params]
   env = "production"
-  description = "我的个人博客"
-  author = "你的名字"
+  description = "小龙的学习笔记"
+  author = "小龙"
 
   defaultTheme = "auto"
   disableThemeToggle = false
@@ -19,12 +19,12 @@ theme = "PaperMod"
   ShowToc = true
 
   [params.homeInfoParams]
-    Title = "你好 👋"
-    Content = "欢迎来到我的个人博客。"
+    Title = "Hello 👋"
+    Content = "欢迎来到我的学习笔记。"
 
 [[menu.main]]
   identifier = "posts"
-  name = "文章"
+  name = "笔记"
   url = "/posts/"
   weight = 10
 
