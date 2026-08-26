@@ -19,8 +19,8 @@ theme = "PaperMod"
   ShowToc = true
 
   [params.homeInfoParams]
-    Title = "Hello 👋"
-    Content = "欢迎来到我的学习笔记。"
+    Title = "👋Helllo 我是李小龙"
+    Content = "一个喜欢折腾IT技术的人"
 
 [[menu.main]]
   identifier = "posts"
