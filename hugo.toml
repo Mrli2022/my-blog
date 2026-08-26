@@ -1,0 +1,41 @@
+baseURL = "http://localhost:1313/"
+languageCode = "zh-cn"
+title = "我的博客"
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  description = "我的个人博客"
+  author = "你的名字"
+
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "你好 👋"
+    Content = "欢迎来到我的个人博客。"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "文章"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "/search/"
+  weight = 30
