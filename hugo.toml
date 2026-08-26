@@ -19,20 +19,17 @@ theme = "PaperMod"
   ShowToc = true
 
   [params.homeInfoParams]
-    Title = "👋Helllo 我是李小龙"
-    Content = "一个喜欢折腾IT技术的人"
+    Title = "👋 Hello，我是李小龙"
+    Content = "一个喜欢折腾 IT 技术的人"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [[menu.main]]
   identifier = "posts"
   name = "笔记"
   url = "/posts/"
   weight = 10
-
-[[menu.main]]
-  identifier = "archives"
-  name = "归档"
-  url = "/archives/"
-  weight = 20
 
 [[menu.main]]
   identifier = "search"
