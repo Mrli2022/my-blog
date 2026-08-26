@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://my-blog-53c.pages.dev/"
 languageCode = "zh-cn"
 title = "小龙的学习笔记"
 theme = "PaperMod"
